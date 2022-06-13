@@ -54,6 +54,10 @@ class InitialViewController: UIViewController {
     }
     
     @IBAction func showBirthdayScreenAction(_ sender: Any) {
+        guard let user = self.user,
+              let birthdayViewController = BirthdayViewController.instantiate() as? BirthdayViewController else { return }
+        birthdayViewController.setUser(user)
+        self.navigationController?.pushViewController(birthdayViewController, animated: true)
     }
     
 }

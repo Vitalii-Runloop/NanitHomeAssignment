@@ -19,6 +19,7 @@
 		FA4744A928577186005A15CB /* AppUserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4744A728577186005A15CB /* AppUserSettings.swift */; };
 		FA4744AA28577186005A15CB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4744A828577186005A15CB /* ImagePicker.swift */; };
 		FA4744AC285771F2005A15CB /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4744AB285771F2005A15CB /* InitialViewController.swift */; };
+		FA4744AE28577271005A15CB /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4744AD28577271005A15CB /* BirthdayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		FA4744A728577186005A15CB /* AppUserSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUserSettings.swift; sourceTree = "<group>"; };
 		FA4744A828577186005A15CB /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		FA4744AB285771F2005A15CB /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		FA4744AD28577271005A15CB /* BirthdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				FA47449F28577141005A15CB /* Extensions */,
 				FA4744A628577186005A15CB /* Shared */,
 				FA4744AB285771F2005A15CB /* InitialViewController.swift */,
+				FA4744AD28577271005A15CB /* BirthdayViewController.swift */,
 				FA47448A28577048005A15CB /* AppDelegate.swift */,
 				FA4744882857703D005A15CB /* SceneDelegate.swift */,
 				FA47445C28567EE6005A15CB /* Main.storyboard */,
@@ -186,6 +189,7 @@
 				FA47448B28577048005A15CB /* AppDelegate.swift in Sources */,
 				FA4744AC285771F2005A15CB /* InitialViewController.swift in Sources */,
 				FA4744A928577186005A15CB /* AppUserSettings.swift in Sources */,
+				FA4744AE28577271005A15CB /* BirthdayViewController.swift in Sources */,
 				FA4744892857703D005A15CB /* SceneDelegate.swift in Sources */,
 				FA4744AA28577186005A15CB /* ImagePicker.swift in Sources */,
 				FA474497285770A1005A15CB /* UserModel.swift in Sources */,
