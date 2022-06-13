@@ -12,6 +12,7 @@
 		FA47446328567EE7005A15CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA47446128567EE7005A15CB /* LaunchScreen.storyboard */; };
 		FA4744892857703D005A15CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4744882857703D005A15CB /* SceneDelegate.swift */; };
 		FA47448B28577048005A15CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47448A28577048005A15CB /* AppDelegate.swift */; };
+		FA474497285770A1005A15CB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA474490285770A1005A15CB /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FA47446428567EE7005A15CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA4744882857703D005A15CB /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FA47448A28577048005A15CB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA474490285770A1005A15CB /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FA47445528567EE6005A15CB /* NanitHomeAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				FA47448F285770A1005A15CB /* DataModels */,
 				FA47448A28577048005A15CB /* AppDelegate.swift */,
 				FA4744882857703D005A15CB /* SceneDelegate.swift */,
 				FA47445C28567EE6005A15CB /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				FA47446428567EE7005A15CB /* Info.plist */,
 			);
 			path = NanitHomeAssignment;
+			sourceTree = "<group>";
+		};
+		FA47448F285770A1005A15CB /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA474490285770A1005A15CB /* UserModel.swift */,
+			);
+			path = DataModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				FA47448B28577048005A15CB /* AppDelegate.swift in Sources */,
 				FA4744892857703D005A15CB /* SceneDelegate.swift in Sources */,
+				FA474497285770A1005A15CB /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
