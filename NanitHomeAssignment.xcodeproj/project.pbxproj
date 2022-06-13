@@ -16,6 +16,8 @@
 		FA4744A328577141005A15CB /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4744A028577141005A15CB /* UIViewControllerExtensions.swift */; };
 		FA4744A428577141005A15CB /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4744A128577141005A15CB /* UIViewExtensions.swift */; };
 		FA4744A528577141005A15CB /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4744A228577141005A15CB /* DateExtensions.swift */; };
+		FA4744A928577186005A15CB /* AppUserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4744A728577186005A15CB /* AppUserSettings.swift */; };
+		FA4744AA28577186005A15CB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4744A828577186005A15CB /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		FA4744A028577141005A15CB /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		FA4744A128577141005A15CB /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		FA4744A228577141005A15CB /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		FA4744A728577186005A15CB /* AppUserSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUserSettings.swift; sourceTree = "<group>"; };
+		FA4744A828577186005A15CB /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 			children = (
 				FA47448F285770A1005A15CB /* DataModels */,
 				FA47449F28577141005A15CB /* Extensions */,
+				FA4744A628577186005A15CB /* Shared */,
 				FA47448A28577048005A15CB /* AppDelegate.swift */,
 				FA4744882857703D005A15CB /* SceneDelegate.swift */,
 				FA47445C28567EE6005A15CB /* Main.storyboard */,
@@ -90,6 +95,15 @@
 				FA4744A228577141005A15CB /* DateExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA4744A628577186005A15CB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FA4744A728577186005A15CB /* AppUserSettings.swift */,
+				FA4744A828577186005A15CB /* ImagePicker.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,7 +181,9 @@
 				FA4744A328577141005A15CB /* UIViewControllerExtensions.swift in Sources */,
 				FA4744A428577141005A15CB /* UIViewExtensions.swift in Sources */,
 				FA47448B28577048005A15CB /* AppDelegate.swift in Sources */,
+				FA4744A928577186005A15CB /* AppUserSettings.swift in Sources */,
 				FA4744892857703D005A15CB /* SceneDelegate.swift in Sources */,
+				FA4744AA28577186005A15CB /* ImagePicker.swift in Sources */,
 				FA474497285770A1005A15CB /* UserModel.swift in Sources */,
 				FA4744A528577141005A15CB /* DateExtensions.swift in Sources */,
 			);
