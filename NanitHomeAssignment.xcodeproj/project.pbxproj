@@ -13,6 +13,9 @@
 		FA4744892857703D005A15CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4744882857703D005A15CB /* SceneDelegate.swift */; };
 		FA47448B28577048005A15CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47448A28577048005A15CB /* AppDelegate.swift */; };
 		FA474497285770A1005A15CB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA474490285770A1005A15CB /* UserModel.swift */; };
+		FA4744A328577141005A15CB /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4744A028577141005A15CB /* UIViewControllerExtensions.swift */; };
+		FA4744A428577141005A15CB /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4744A128577141005A15CB /* UIViewExtensions.swift */; };
+		FA4744A528577141005A15CB /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4744A228577141005A15CB /* DateExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		FA4744882857703D005A15CB /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FA47448A28577048005A15CB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA474490285770A1005A15CB /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		FA4744A028577141005A15CB /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		FA4744A128577141005A15CB /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		FA4744A228577141005A15CB /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				FA47448F285770A1005A15CB /* DataModels */,
+				FA47449F28577141005A15CB /* Extensions */,
 				FA47448A28577048005A15CB /* AppDelegate.swift */,
 				FA4744882857703D005A15CB /* SceneDelegate.swift */,
 				FA47445C28567EE6005A15CB /* Main.storyboard */,
@@ -73,6 +80,16 @@
 				FA474490285770A1005A15CB /* UserModel.swift */,
 			);
 			path = DataModels;
+			sourceTree = "<group>";
+		};
+		FA47449F28577141005A15CB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA4744A028577141005A15CB /* UIViewControllerExtensions.swift */,
+				FA4744A128577141005A15CB /* UIViewExtensions.swift */,
+				FA4744A228577141005A15CB /* DateExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4744A328577141005A15CB /* UIViewControllerExtensions.swift in Sources */,
+				FA4744A428577141005A15CB /* UIViewExtensions.swift in Sources */,
 				FA47448B28577048005A15CB /* AppDelegate.swift in Sources */,
 				FA4744892857703D005A15CB /* SceneDelegate.swift in Sources */,
 				FA474497285770A1005A15CB /* UserModel.swift in Sources */,
+				FA4744A528577141005A15CB /* DateExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
